@@ -1,0 +1,12 @@
+{
+  "templates": {
+    "sign_request": {
+      "filename": "sign_request.html",
+      "subject": "Please sign your RentDaddy lease agreement"
+    },
+    "signing_complete": {
+      "filename": "signing_complete.html",
+      "subject": "Your RentDaddy lease agreement has been signed"
+    }
+  }
+}

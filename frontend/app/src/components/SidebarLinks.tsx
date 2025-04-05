@@ -53,7 +53,7 @@ const SidebarLinks = () => {
                         />
                         <Link
                             to="/admin"
-                            className="text-white text-decoration-none hover:text-secondary hover-lift transition-all">
+                            className="text-white text-decoration-none hover:text-secondary transition-all">
                             Admin
                         </Link>
                     </div>
@@ -88,11 +88,11 @@ const SidebarLinks = () => {
                             className={getLinkClass("/admin/admin-view-and-edit-smart-lockers") + " hover-lift transition-all"}>
                             Smart Lockers
                         </Link>
-                        {/* <Link
-                            to="/components/settings"
-                            className={getLinkClass("/components/settings") + " hover-lift transition-all"}>
+                        <Link
+                            to="/admin/settings"
+                            className={getLinkClass("/admin/settings") + " hover-lift transition-all"}>
                             Settings
-                        </Link> */}
+                        </Link>
                     </div>
                 </div>
             )}
